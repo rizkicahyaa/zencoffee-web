@@ -1,0 +1,27 @@
+h1 {
+  font-family: "Playfair Display", sans-serif;
+}
+
+.btn-primary {
+  font-size: 15px;
+  background-color: rgb(182, 97, 0);
+  border: 1px solid rgb(182, 97, 0);
+}
+
+.btn-primary:hover {
+  background: none;
+  border: 1px solid rgb(182, 97, 0);
+  color: rgb(182, 97, 0);
+}
+
+.btn-secondary {
+  font-size: 15px;
+  background: none;
+  border: 1px solid rgb(182, 97, 0);
+  color: rgb(182, 97, 0);
+}
+
+.btn-secondary:hover {
+  background-color: rgb(182, 97, 0);
+  color: #fff;
+}
