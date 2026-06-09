@@ -28,3 +28,12 @@ h3 {
   background-color: rgb(182, 97, 0);
   color: #fff;
 }
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.684), rgba(0, 0, 0, 0.684)),
+    url(../../public/header-bg.avif);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
