@@ -1,0 +1,43 @@
+---
+const products = [
+    {
+        name: "Espresso",
+        image: "https://images.getrecipekit.com/20230414194230-espresso-cup-with-coffee-beans.jpg?width=650&quality=90&",
+        price: 20000,
+    },
+    {
+        name: "Americano",
+        image: "https://d1r9hss9q19p18.cloudfront.net/uploads/2016/04/hot-black-coffee-1680x1050.jpg",
+        price: 25000,
+    },
+    {
+        name: "Coffee Latte",
+        image: "https://richcreme.com/wp-content/uploads/2022/07/latte.jpg",
+        price: 15000,
+    },
+];
+---
+
+<section class="our-signature py-5">
+    <div class="container">
+        <div class="row text-center mb-4">
+            <h2>Our Signature Coffee Collection</h2>
+            <p>Explore our best-selling single origins and signature blends crafted for every taste.</p>
+        </div>
+        <div class="row">
+            {
+                products.map((product) => (
+                    <div class="col-md-4 text-center">
+                        <div class="card">
+                            <img src={product.image} class="card-img-top object-fit-cover p-4" alt="products" style="width: 100%; height: 300px" />
+                            <div class="card-body">
+                                <h3>{product.name}</h3>
+                                <p>{product.price}</p>
+                            </div>
+                        </div>
+                    </div>
+                ))
+            }
+        </div>
+    </div>
+</section>
