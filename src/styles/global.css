@@ -24,6 +24,7 @@ h3 {
 }
 
 .btn-secondary:hover {
+  border: 1px solid rgb(182, 97, 0);
   background-color: rgb(182, 97, 0);
   color: #fff;
 }
