@@ -12,6 +12,7 @@ h3 {
   font-size: 15px;
   background-color: rgb(182, 97, 0);
   border: 1px solid rgb(182, 97, 0);
+  border-radius: 0%;
 }
 
 .btn-primary:hover {
@@ -25,6 +26,7 @@ h3 {
   background: none;
   border: 1px solid rgb(182, 97, 0);
   color: rgb(182, 97, 0);
+  border-radius: 0%;
 }
 
 .btn-secondary:hover {
@@ -52,4 +54,8 @@ header {
 
 .nav-scroller {
   background-color: #e5dece;
+}
+
+.fresh-coffee {
+  background-color: #530606;
 }
