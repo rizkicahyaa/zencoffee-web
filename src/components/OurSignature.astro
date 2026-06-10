@@ -4,16 +4,19 @@ const products = [
         name: "Espresso",
         image: "https://images.getrecipekit.com/20230414194230-espresso-cup-with-coffee-beans.jpg?width=650&quality=90&",
         price: 20000,
+        rating: "4.9",
     },
     {
         name: "Americano",
         image: "https://d1r9hss9q19p18.cloudfront.net/uploads/2016/04/hot-black-coffee-1680x1050.jpg",
         price: 25000,
+        rating: "4.7",
     },
     {
         name: "Coffee Latte",
         image: "https://richcreme.com/wp-content/uploads/2022/07/latte.jpg",
         price: 15000,
+        rating: "4.5",
     },
 ];
 ---
@@ -27,12 +30,16 @@ const products = [
         <div class="row">
             {
                 products.map((product) => (
-                    <div class="col-md-4 text-center">
-                        <div class="card">
-                            <img src={product.image} class="card-img-top object-fit-cover p-4" alt="products" style="width: 100%; height: 300px" />
+                    <div class="col-md-4 g-3 text-center">
+                        <div class="card p-4">
+                            <span class="rating mb-3">
+                                <i class="bi bi-star-fill" />
+                                {product.rating}
+                            </span>
+                            <img src={product.image} class="card-img-top object-fit-cover" alt="products" style="width: 100%; height: 300px" />
                             <div class="card-body">
                                 <h3>{product.name}</h3>
-                                <p>{product.price}</p>
+                                <p>Rp. {product.price}</p>
                             </div>
                         </div>
                     </div>
