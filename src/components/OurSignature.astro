@@ -27,7 +27,7 @@ const products = [
             <h2>Our Signature Coffee Collection</h2>
             <p>Explore our best-selling single origins and signature blends crafted for every taste.</p>
         </div>
-        <div class="row">
+        <div class="row mb-4">
             {
                 products.map((product) => (
                     <div class="col-md-4 g-3 text-center">
@@ -45,6 +45,9 @@ const products = [
                     </div>
                 ))
             }
+        </div>
+        <div class="row">
+            <button class="btn btn-primary">Shop All Coffee</button>
         </div>
     </div>
 </section>
