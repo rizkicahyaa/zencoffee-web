@@ -26,7 +26,8 @@ h4 {
   font-size: 15px;
   background: none;
   border: 1px solid rgb(182, 97, 0);
-  color: rgb(182, 97, 0);
+  /* color: rgb(182, 97, 0); */
+  color: #fff;
   border-radius: 0%;
 }
 
@@ -59,4 +60,8 @@ header {
 
 .fresh-coffee {
   background-color: #530606;
+}
+
+.our-commitment {
+  background-color: #e5ded0;
 }
