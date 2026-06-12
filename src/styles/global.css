@@ -1,5 +1,6 @@
 body {
   background-color: #eee8e1;
+  color: #530606;
 }
 
 h1,
@@ -52,6 +53,7 @@ header {
 
 .card {
   background-color: #e5ded0;
+  color: #530606;
 }
 
 .nav-scroller {
