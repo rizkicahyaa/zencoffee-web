@@ -71,3 +71,9 @@ header {
 .experience {
   background-color: #054611;
 }
+
+.footer-link {
+  text-decoration: none;
+  color: #3d2a21;
+  transition: 0.3s;
+}
